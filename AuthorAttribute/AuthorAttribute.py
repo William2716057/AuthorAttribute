@@ -70,5 +70,5 @@ for i in range(len(Author1Text2) - 1): #prevent out of bounds
             Author1Likelyhood += np.log(TMAuthor1Text[current_char_id][next_char_id])
             Author2Likelihood += np.log(TM_Author2Text[current_char_id][next_char_id])
 #higher likelihood score 
-print("Log Likelihood for Author1:", Author1Likelyhood)
-print("Log Likelihood for Author2:", Author2Likelihood)
+print("Likelihood for Author1:", Author1Likelyhood)
+print("Likelihood for Author2:", Author2Likelihood)
